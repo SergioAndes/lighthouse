@@ -142,7 +142,7 @@
           result.label = label;
           result.created = response._metadata.date;
           result.schedules = response.result.schedules;
-          window.cardLoadTime = performance.now();
+
           window.apiLoadTime = performance.now();
           app.updateTimetableCard(result);
 
