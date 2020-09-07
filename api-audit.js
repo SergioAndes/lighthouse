@@ -2,7 +2,7 @@
 
 const Audit = require('lighthouse').Audit;
 
-const MAX_CARD_TIME = 2000;
+const MAX_CARD_TIME = 3000;
 
 class LoadAuditApi extends Audit {
     static get meta() {
